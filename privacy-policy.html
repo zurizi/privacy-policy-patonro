@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kebijakan Privasi Patonro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <div class="max-w-4xl mx-auto p-6">
+      <h1 class="text-5xl font-bold text-center mb-2">
+        Kebijakan Privasi Patonro
+      </h1>
+      <p class="text-center text-sm text-gray-500 mb-8">
+        Last Updated Nov 8th, 2024
+      </p>
+
+      <p class="text-justify text-lg mb-10">
+        Terima kasih telah menggunakan Patonro sebagai aplikasi pelayanan publik
+        dalam pemugutan pajak. Ketika Anda menggunakan Patonro, Anda
+        mempercayakan informasi Anda kepada kepada kami Badan Pendapatan Daerah
+        (BAPENDA) Kabupaten Gowa. Penting bagi kami untuk menjaga kepercayaan
+        Anda, untuk itu Anda perlu membaca dan menyetujui langkah-langkah yang
+        kami terapkan dalam syarat dan ketentuan layanan berikut ini.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="md:col-span-1">
+          <div class="sticky top-6">
+            <h2 class="text-xl font-semibold mb-4">Table of contents</h2>
+            <ul
+              id="toc"
+              class="list-decimal list-inside text-sm space-y-2 text-blue-600"
+            ></ul>
+            <a href="#top" class="text-sm text-gray-500 block mt-4"
+              >Back to top ↑</a
+            >
+          </div>
+        </div>
+
+        <div id="terms-content" class="md:col-span-2 space-y-8"></div>
+      </div>
+    </div>
+
+    <script>
+      const termsAndConditions = [
+        {
+          number: "1.",
+          title: "Lingkup",
+          content:
+            "Syarat dan ketentuan ini berlaku bagi seluruh pengguna yang mengakses dan/atau menggunakan salah satu atau seluruh layanan yang tersedia di PATONRO, serta yang disediakan melalui aplikasi PATONRO. Ketentuan ini juga berlaku untuk setiap orang yang menyampaikan permintaan atau memberikan informasi kepada kami terkait dengan setiap atau seluruh layanan PATONRO.",
+        },
+        {
+          number: "2.",
+          title: "Registrasi Akun",
+          subpoints: [
+            {
+              content:
+                "Anda dapat membuat akun PATONRO: i) secara otomatis, dengan mendaftar diri Anda pada akun PATONRO. Anda perlu memberikan informasi yang valid, akurat, dan terbaru tentang diri Anda saat membuat akun PATONRO.",
+            },
+            {
+              content:
+                "Anda perlu memahami bahwa detail informasi log-in Anda, termasuk detail log-in ke aplikasi PATONRO Anda dan/atau Mitra Platform Resmi adalah rahasia. Oleh karena itu, Anda tidak akan mengungkapkan detail informasi log-in Anda kepada pihak ketiga manapun, termasuk password rahasia dan/atau kode verifikasi berupa Kode Sandi Sekali Pakai (One Time Password/OTP) yang dikirimkan melalui layanan surat elektronik (email) Anda setiap kali ada percobaan log-in ke akun Anda. Kami atau petugas Kami tidak pernah menanyakan kode verifikasi (termasuk OTP) rahasia dengan cara apapun. Anda setuju untuk menanggung setiap risiko terkait pengungkapan informasi log-in Anda kepada pihak manapun dan bertanggung jawab penuh atas setiap konsekuensi yang berkaitan dengan hal tersebut. Setiap penyampaian OTP yang diverifikasi dari akun Anda saat log-in melalui aplikasi PATONRO akan dianggap sebagai log-in resmi.",
+            },
+            {
+              content:
+                "Anda dapat diminta untuk menyampaikan dokumen atau informasi tambahan, baik secara elektronik atau secara langsung ke kantor Kami, atau menemui agen Kami, sebagaimana Kami instruksikan, jika Anda ingin menggunakan layanan tertentu yang disediakan bagi pengguna PATONRO terverifikasi atau sebagaimana diperlukan.",
+            },
+            {
+              content:
+                "Kami akan melakukan verifikasi atas informasi dan dokumen yang Anda sampaikan melalui aplikasi PATONRO dan menentukan apakah Anda telah memenuhi persyaratan sebagai pengguna PATONRO terverifikasi.",
+            },
+            {
+              content:
+                "Persetujuan dan/atau penolakan atas permohonan verifikasi Anda merupakan kewenangan kami sepenuhnya dengan memperhatikan ketentuan hukum dan peraturan perundang-undangan yang berlaku. Kami dapat, sewaktu-waktu, menarik persetujuan atas permohonan verifikasi Anda dan mengembalikan status akun Anda menjadi tidak terverifikasi, termasuk apabila terdapat keraguan atas ketepatan dan/atau keabsahan serta kelengkapan dokumen dan/atau informasi yang Anda sampaikan.",
+            },
+            {
+              content:
+                "Untuk menghindari penyalahgunaan apapun atas akun PATONRO Anda, Kami dapat menghentikan layanan PATONRO apapun jika dokumen atau informasi yang Kami minta dari Anda tidak akurat, tidak sah, dan/atau tidak lengkap.",
+            },
+            {
+              content:
+                "Registrasi akun PATONRO hanya dapat dilakukan oleh Anda sendiri sebagai subjek hukum. Anda menyatakan dan menjamin bahwa registrasi akun PATONRO Anda ditujukan oleh Anda untuk kepentingan Anda sendiri, bukan untuk kepentingan pihak lainnya manapun, termasuk badan hukum dan/atau badan usaha manapun. Kami berhak menolak registrasi yang Anda lakukan atas akun PATONRO untuk kepentingan pihak manapun selain Anda, termasuk badan hukum dan/atau badan usaha manapun.",
+            },
+            {
+              content:
+                "Setiap data yang dikirimkan Anda kepada Kami untuk pendaftaran akun adalah data Anda sendiri. Setiap permintaan dari setiap akun akan dianggap sebagai permintaan yang sah dari akun tersebut.",
+            },
+          ],
+        },
+        {
+          number: "3.",
+          title: "Informasi Pribadi",
+          subpoints: [
+            {
+              content:
+                "Anda memahami bahwa saat mendaftar akun PATONRO, mengakses, dan/atau menggunakan fitur PATONRO melalui aplikasi PATONRO dan/atau Mitra Resmi, Anda akan mengungkapkan data dan informasi pribadi kepada Kami, afiliasi Kami, dan PATONRO. Anda juga setuju bahwa akan ada pengungkapan data atau informasi pribadi Anda antara PATONRO dan pihak-pihak tersebut untuk mendukung layanan kami kepada Anda. Berbagi data ini diperlukan untuk meningkatkan pengalaman Anda dalam menggunakan fitur PATONRO, dan Anda menyetujui pembagian data tersebut. Kami mendorong Anda untuk membaca dan meninjau kebijakan privasi yang relevan dengan seksama.",
+            },
+            {
+              content:
+                "Tanpa mengurangi ketentuan dalam kebijakan privasi yang berlaku, sebagai bagian dari upaya menjaga informasi di akun PATONRO Anda tetap aktual, Anda perlu segera memberi tahu Kami tentang perubahan informasi pribadi yang telah Anda sampaikan sebelumnya, beserta bukti pendukungnya. Ini termasuk, tetapi tidak terbatas pada, alamat surat elektronik, nomor telepon seluler yang Anda daftarkan saat pembukaan akun PATONRO, dan/atau dokumen lain yang Anda sampaikan dalam proses pengajuan sebagai pengguna PATONRO terverifikasi.",
+            },
+            {
+              content:
+                "Penyampaian dokumen atau informasi kepada Kami, termasuk tetapi tidak terbatas pada dokumen saat registrasi atau saat memberikan komentar pada layanan Kami di halaman ulasan, merupakan persetujuan Anda atas pengumpulan, penggunaan, dan/atau pengungkapan informasi pribadi yang Anda sampaikan, sesuai dengan hukum dan peraturan yang berlaku.",
+            },
+            {
+              content:
+                "PATONRO berhak meminta informasi tambahan dari Anda, selain yang disebutkan dalam Syarat dan Ketentuan ini, untuk memastikan Kami mematuhi kewajiban kami. Anda setuju untuk memenuhi setiap permintaan Kami dalam bentuk apapun, sesuai kebijaksanaan Kami dan atas biaya Anda sendiri, untuk memberikan informasi lebih lanjut yang diperlukan untuk memenuhi kewajiban kami. Setiap informasi tambahan yang Anda berikan atas permintaan kami akan dianggap sepenuhnya disediakan oleh Anda, dan Kami tidak bertanggung jawab untuk memverifikasi keakuratannya.",
+            },
+            {
+              content:
+                "Kami tidak akan mengungkapkan informasi pribadi Anda kepada pihak manapun, kecuali sebagaimana diizinkan berdasarkan Syarat dan Ketentuan ini dan/atau Kebijakan Privasi Kami.",
+            },
+          ],
+        },
+        {
+          number: "4.",
+          title: "Persetujuan",
+          subpoints: [
+            {
+              content:
+                "Anda menyatakan dan menjamin bahwa Anda adalah individu yang sah secara hukum untuk terikat dalam perjanjian berdasarkan hukum Republik Indonesia, khususnya terikat dalam Syarat dan Ketentuan ini, untuk menggunakan PATONRO, dan bahwa Anda berusia minimal 21 tahun atau telah menikah serta tidak sedang berada dalam pengampuan.",
+            },
+            {
+              content:
+                "Jika Anda tidak memenuhi syarat tersebut, Anda menyatakan dan menjamin bahwa pembukaan akun Anda dan aktivitas lain yang Anda lakukan menggunakan PATONRO telah disetujui oleh orang tua atau pengampu Anda.",
+            },
+            {
+              content:
+                "Anda mengesampingkan setiap hak berdasarkan hukum untuk membatalkan atau mencabut setiap dan seluruh persetujuan yang Anda berikan berdasarkan Syarat dan Ketentuan ini pada saat Anda dianggap oleh hukum telah dewasa.",
+            },
+          ],
+        },
+        {
+          number: "5.",
+          title: "Penggunaan",
+          subpoints: [
+            {
+              content:
+                "Anda dapat mengakses akun PATONRO Anda melalui aplikasi PATONRO yang tersedia di website, Android, dan iOS.",
+            },
+            {
+              content:
+                "Anda memahami bahwa Kami adalah penyelenggara layanan sistem pelayanan masyarakat. PATONRO tidak memiliki kendali, tanggung jawab, maupun kewajiban hukum atas layanan yang disediakan oleh Mitra Resmi kami. Setiap keluhan dan/atau klaim yang berkaitan dengan layanan yang disediakan oleh Mitra Resmi wajib Anda sampaikan langsung kepada Mitra Resmi yang bersangkutan.",
+            },
+            {
+              content:
+                "Kami mengingatkan bahwa penggunaan akun PATONRO dan/atau layanan PATONRO sepenuhnya merupakan tanggung jawab pribadi Anda. JANGAN BERIKAN AKSES ATAU IZINKAN PIHAK LAIN UNTUK MENGAKSES AKUN PATONRO Anda. Anda menyetujui bahwa setiap tindakan yang dilakukan melalui akun PATONRO Anda melalui Aplikasi PATONRO akan dianggap sebagai tindakan yang telah diotorisasi oleh Anda. Kami tidak bertanggung jawab atas kerugian atau klaim yang timbul akibat penggunaan akun PATONRO dan/atau layanan PATONRO yang dilakukan dengan melanggar Syarat dan Ketentuan ini.",
+            },
+          ],
+        },
+        {
+          number: "6.",
+          title: "Pemblokiran Akun dan Penonaktifan Akses",
+          subpoints: [
+            {
+              content:
+                "Atas permintaan Anda, Kami akan memblokir akun PATONRO Anda dan menghentikan penggunaan layanan PATONRO dengan akun tersebut. Selain itu, jika menurut pertimbangan Kami terjadi hal-hal yang merugikan dan/atau berpotensi merugikan Kami, Anda, atau pihak ketiga lainnya, Kami juga dapat melakukan pemblokiran tersebut. Namun demikian, Kami menyediakan mekanisme pengajuan keluhan yang dapat Anda gunakan sesuai dengan ketentuan pada butir 6.3 di bawah ini.",
+            },
+            {
+              content:
+                "Pemblokiran akun dapat dilakukan dalam berbagai situasi, termasuk namun tidak terbatas pada kejadian-kejadian berikut:\n <br> - Laporan dari Anda bahwa ponsel atau perangkat lainnya hilang, dicuri, atau diretas;\n <br> - Adanya perintah pemblokiran yang dikeluarkan oleh lembaga pemerintah atau berdasarkan keputusan pengadilan;\n <br> - Akun PATONRO tidak digunakan selama minimal 6 bulan berturut-turut;\n <br> - Penggunaan akun PATONRO dan/atau layanan PATONRO Anda dengan cara yang bertentangan dengan Syarat dan Ketentuan ini, ketentuan penggunaan aplikasi PATONRO, syarat dan ketentuan lainnya yang berlaku untuk fitur atau layanan dalam aplikasi PATONRO, Kebijakan Privasi Kami, serta hukum dan peraturan yang berlaku, termasuk namun tidak terbatas pada tindakan penipuan atau penggunaan dokumen palsu;\n <br> - Alasan lain yang merugikan Anda atau Kami, termasuk tindakan kasar atau penipuan;\n <br> - Ketika sistem Kami mendeteksi pola aktivitas yang mencurigakan.",
+            },
+            {
+              content:
+                "Jika akun PATONRO Anda diblokir dan Anda memiliki bukti kuat bahwa tidak ada aktivitas mencurigakan yang terjadi, Anda dapat mengajukan keluhan sesuai dengan yang diatur dalam Syarat dan Ketentuan ini. Setelah Kami meninjau keluhan Anda, Kami akan memutuskan apakah pemblokiran akan diakhiri atau dilanjutkan. Pemblokiran tidak akan diteruskan secara tidak wajar jika Kami menentukan bahwa alasan yang menyebabkan pemblokiran telah terselesaikan.",
+            },
+            {
+              content:
+                "Kami berhak, setiap saat, untuk menonaktifkan sementara atau secara permanen akses Anda ke akun PATONRO, baik sebagian maupun semua fitur dan layanan PATONRO.",
+            },
+          ],
+        },
+        {
+          number: "7.",
+          title: "Penutupan Akun",
+          subpoints: [
+            {
+              content:
+                "Akun PATONRO Anda dapat ditutup karena hal-hal berikut:\n <br> - Permintaan dari Anda;\n <br> - Kebijakan Kami yang didasarkan pada hukum dan peraturan perundang-undangan yang berlaku;\n <br> - Terjadinya keadaan kahar yang berlangsung selama 3 (tiga) bulan atau lebih secara berturut-turut;\n <br> - Alasan lain yang berkaitan dengan pemblokiran akun.",
+            },
+            {
+              content:
+                "Akun PATONRO Anda akan otomatis berakhir atau ditutup ketika Anda memutuskan untuk menutup akun PATONRO Anda.",
+            },
+          ],
+        },
+        {
+          number: "8.",
+          title: "Penolakan Layanan",
+          content:
+            "Kami berhak menolak permohonan layanan yang Anda ajukan apabila Anda melanggar sebagian atau seluruh Syarat dan Ketentuan ini dan/atau melanggar ketentuan hukum serta peraturan perundang-undangan yang berlaku.",
+        },
+        {
+          number: "9.",
+          title: "Tanggung Jawab dan Kewajiban Anda",
+          content:
+            "Sebagai tambahan dari tanggung jawab Anda yang diatur dalam bagian lain dari Syarat dan Ketentuan ini, Anda bertanggung jawab atas:\n<br> -  Keamanan dan kepemilikan telepon seluler atau perangkat lainnya yang Anda gunakan untuk mengakses akun PATONRO Anda, termasuk secara wajar menjaga dan memastikan kapasitas penyimpanan yang memadai untuk mencegah kegagalan atau gangguan dalam proses layanan PATONRO yang disebabkan oleh kegagalan fungsi telepon seluler atau perangkat lainnya tersebut;\n<br> - Keamanan dan validitas surat elektronik yang Anda daftarkan untuk mengakses akun PATONRO, sehingga Kami tidak bertanggung jawab atas setiap klaim yang muncul jika surat elektronik tersebut diambil alih oleh pihak lain, menjadi tidak aktif berdasarkan kebijakan perusahaan telekomunikasi, dan/atau menjadi tidak aktif (dormant);\n<br> - Kerahasiaan Kode Sandi Sekali Pakai (OTP) yang dikirimkan kepada Anda melalui surat elektronik;\n<br> - Setiap permohonan layanan yang Anda ajukan harus diisi dengan cara dan prosedur yang benar, tanpa adanya kesalahan, termasuk kesalahan penulisan, dalam bentuk dan cara apapun, serta dapat dipertanggungjawabkan kebenaran dan keabsahannya;\n<br> - Setiap permohonan layanan yang diajukan dilakukan dalam kondisi sehat jasmani dan rohani, tidak berada di bawah tekanan, dan tidak melanggar peraturan perundang-undangan yang berlaku;\n <br> Khusus untuk layanan terkait perpajakan, objek pajak yang dimohon tidak dalam masalah hukum dan tidak sedang dalam sengketa dengan pihak manapun;\n <br> - Anda wajib berhati-hati ketika menggunakan akun PATONRO dan/atau layanan PATONRO, termasuk namun tidak terbatas pada pemilihan menu layanan, pembayaran, dan sebagainya. Anda harus memastikan bahwa Anda hanya mengikuti instruksi layanan yang dikeluarkan oleh PATONRO dan Mitra Resmi sesuai yang telah Anda setujui;\n <br> - Setiap kerugian, klaim, tuntutan, dan/atau biaya yang timbul, termasuk dari pihak ketiga kepada Kami, akibat pelanggaran terhadap Syarat dan Ketentuan ini, kelalaian Anda dalam menggunakan akun PATONRO, layanan PATONRO, fitur PATONRO dalam aplikasi PATONRO, termasuk namun tidak terbatas pada kecerobohan, penyalahgunaan akun PATONRO, dan/atau layanan PATONRO oleh Anda atau pihak lain yang menggunakan akun PATONRO Anda.",
+        },
+        {
+          number: "10.",
+          title: "Tanggung Jawab Kami",
+          subpoints: [
+            {
+              content:
+                "Kami tidak bertanggung jawab atas kerugian tidak langsung dan immaterial, termasuk biaya, bunga, kerusakan, atau kerugian dalam bentuk atau jenis apapun (termasuk cedera pribadi, tekanan emosional, hilangnya data, barang, pendapatan, laba, penggunaan, atau keuntungan ekonomi lainnya) yang dialami oleh Anda atau pihak ketiga.",
+            },
+            {
+              content:
+                "Kami tidak bertanggung jawab atas setiap kerugian, termasuk biaya, bunga, kerusakan, atau kerugian dalam bentuk atau jenis apapun (termasuk cedera pribadi, tekanan emosional, hilangnya data, barang, pendapatan, laba, penggunaan, atau keuntungan ekonomi lainnya) yang dialami oleh Anda atau pihak ketiga akibat kesalahan yang dilakukan oleh Anda sendiri atau pihak ketiga selain Kami.",
+            },
+            {
+              content:
+                "Kami tidak bertanggung jawab atas setiap kerugian, termasuk biaya, bunga, kerusakan, atau kerugian dalam bentuk atau jenis apapun (termasuk cedera pribadi, tekanan emosional, hilangnya data, barang, pendapatan, laba, penggunaan, atau keuntungan ekonomi lainnya) yang disebabkan oleh kegagalan sistem dari Mitra Resmi, legalitas barang dan/atau layanan yang disediakan oleh Mitra Resmi, serta keselamatan dan keamanan permohonan pelayanan Anda yang terjadi di Mitra Resmi.",
+            },
+          ],
+        },
+        {
+          number: "11.",
+          title: "Permasalahan dan Keluhan",
+          subpoints: [
+            {
+              content:
+                "Kami berupaya semaksimal mungkin untuk menjaga keamanan sistem, termasuk sistem pencatatan permohonan pelayanan Anda secara elektronik di server Kami. Data atau riwayat permohonan pelayanan yang tercatat di sistem Kami merupakan data atau riwayat yang final dan mengikat baik Kami maupun Anda.",
+            },
+            {
+              content:
+                "Kami menerapkan standar keamanan yang wajar untuk melindungi data Anda selama proses pengiriman, penyimpanan, serta penggunaan akun PATONRO dan/atau layanan PATONRO. Namun, Kami ingin menekankan bahwa tidak ada sistem yang sepenuhnya kebal terhadap ancaman, yang dapat meningkatkan risiko terhadap informasi Anda dan penggunaan akun PATONRO dan/atau layanan PATONRO. Oleh karena itu, sejauh diizinkan oleh hukum dan peraturan perundang-undangan yang berlaku, Anda setuju untuk melepaskan Kami dari klaim apapun yang timbul terkait virus, kerusakan, gangguan, atau bentuk lain dari gangguan sistem yang disebabkan oleh pihak selain Kami atau akses tidak sah oleh pihak ketiga yang bertindak dengan itikad buruk. Kami menyarankan Anda untuk segera memberitahu Kami jika mengalami gangguan sistem semacam itu agar Kami dapat berupaya memperbaikinya.",
+            },
+            {
+              content:
+                "Anda setuju untuk tidak merusak, mengubah, atau memodifikasi sistem PATONRO, atau mencoba untuk melakukannya dengan cara apapun.",
+            },
+            {
+              content:
+                "Kami berhak melarang Anda menggunakan layanan PATONRO dalam aplikasi PATONRO jika Anda mengaksesnya melalui perangkat yang tidak memadai, tidak terotorisasi, atau digunakan untuk tujuan yang berbeda dari yang dimaksudkan oleh layanan PATONRO.",
+            },
+            {
+              content:
+                "Anda perlu memahami bahwa di platform resmi, bank tertentu, dan/atau saluran lainnya yang melibatkan pihak ketiga, terdapat kemungkinan kegagalan sistem. Kami tidak bertanggung jawab atas kegagalan sistem dari pihak ketiga tersebut.",
+            },
+            {
+              content:
+                "Jika ponsel dan/atau perangkat lain Anda hilang, dicuri, dan/atau diretas, segera informasikan kepada Kami melalui alamat email terdaftar pada akun PATONRO Anda atau melalui telepon ke Layanan Pelanggan PATONRO. Jika terjadi permohonan pelayanan setelah ponsel dan/atau perangkat Anda hilang, dicuri, dan/atau diretas, tetapi Anda belum memberi tahu Kami, pembayaran yang dilakukan akan tetap dianggap sah.",
+            },
+            {
+              content:
+                "Jika Anda memiliki pertanyaan, permintaan, keluhan, atau ingin menyampaikan informasi terkait fitur PATONRO, Anda dapat menghubungi Kami melalui email ke alamat info@patonro.id.<br>Untuk merespons pertanyaan atau keluhan Anda, Kami akan terlebih dahulu melakukan verifikasi atas data Anda. Kami berhak menolak pemrosesan pertanyaan atau keluhan jika data Anda tidak sesuai dengan data yang tercatat di sistem Kami.<br>Kami akan memeriksa atau memverifikasi keluhan Anda dan memberikan respon sesuai dengan kebijakan dan prosedur yang berlaku setelah menerima keluhan yang lengkap dari Anda.",
+            },
+          ],
+        },
+        {
+          number: "12.",
+          title: "Keadaan Kahar",
+          content:
+            "Layanan Kami dapat terganggu oleh kejadian atau hal-hal tertentu di luar kewenangan dan kontrol Kami (Keadaan Kahar), termasuk namun tidak terbatas pada bencana alam, gangguan listrik, gangguan telekomunikasi, kebijakan pemerintah, dan kejadian lainnya yang berada di luar kendali Kami. Oleh karena itu, Anda setuju untuk melepaskan Kami dari setiap klaim jika Kami tidak dapat memenuhi instruksi Anda melalui akun PATONRO, baik sebagian maupun seluruhnya, akibat Keadaan Kahar tersebut.",
+        },
+        {
+          number: "13.",
+          title: "Hak Kekayaan Intelektual",
+          content:
+            "PATONRO, termasuk nama dan logonya, kode, desain, teknologi, model bisnis, dilindungi oleh hak cipta, merek, dan hak kekayaan intelektual lainnya yang diatur berdasarkan hukum Republik Indonesia. Kami (dan pihak yang memperoleh lisensi dari Kami, jika berlaku) memiliki seluruh hak dan kepentingan atas PATONRO, termasuk seluruh hak kekayaan intelektual yang terkait. Syarat dan Ketentuan ini tidak, dan dalam keadaan apapun tidak akan, dianggap sebagai pemberian izin kepada Anda untuk menggunakan setiap hak kekayaan intelektual Kami sebagaimana disebutkan di atas. Anda tidak diperkenankan untuk melakukan hal-hal berikut:<br>(i) Menyalin, memodifikasi, mengadaptasi, menerjemahkan, membuat karya turunan dari, mendistribusikan, memberikan lisensi, menjual, mengalihkan, menampilkan di muka umum, membuat ulang, mentransmisikan, memindahkan, menyiarkan, menguraikan, atau membongkar bagian manapun dari atau dengan cara lain mengeksploitasi sistem PATONRO (termasuk fitur-fitur layanan di dalamnya) yang dilisensikan kepada Anda, kecuali sebagaimana diperbolehkan dalam Syarat dan Ketentuan ini;<br>(ii) Memberikan lisensi, mensublisensikan, menjual, menjual kembali, memindahkan, mengalihkan, mendistribusikan, atau mengeksploitasi secara komersial, atau membuat tersedia kepada pihak ketiga perangkat lunak dalam cara apapun;<br>(iii) Menciptakan tautan internet ('link'), frame, atau mirror perangkat lunak pada server lain atau perangkat nirkabel atau berbasis internet lainnya;<br>(iv) Melakukan rekayasa ulang atau mengakses perangkat lunak Kami untuk (a) membangun produk atau layanan yang bersaing, (b) membangun produk dengan menggunakan ide, fitur, fungsi, atau grafis sejenis, atau (c) menyalin ide, fitur, fungsi, atau grafis;<br>(v) Meluncurkan program otomatis atau skrip, termasuk namun tidak terbatas pada web spiders, web crawlers, web robots, web ants, web indexers, bots, virus, atau worm, atau program apapun yang dapat menyebabkan beberapa permintaan server per detik, atau menciptakan beban berat yang mengganggu operasi dan/atau kinerja aplikasi;<br>(vi) Menggunakan robot, spider, aplikasi pencarian/pengambilan situs, atau perangkat manual atau otomatis lainnya, atau proses untuk mengambil, mengindeks, 'menambang data' (data mine), atau dengan cara apapun memperbanyak atau menghindari struktur navigasi atau presentasi dari aplikasi atau isinya;<br>(vii) Menerbitkan, mendistribusikan, atau memperbanyak dengan cara apapun materi yang dilindungi hak cipta, merek dagang, atau informasi kepemilikan lainnya tanpa persetujuan tertulis sebelumnya dari Kami atau pemilik hak yang melisensikan hak tersebut kepada Kami;<br>(viii) Menghapus setiap hak cipta, merek dagang, atau pemberitahuan hak kepemilikan lainnya yang terkandung dalam sistem PATONRO.",
+        },
+        {
+          number: "14.",
+          title: "Tidak ada Pengesampingan",
+          content:
+            "Pengesampingan atau penundaan Kami dalam mengajukan klaim atas pelanggaran terhadap ketentuan manapun dalam Syarat dan Ketentuan ini, atau penundaan atau kegagalan Kami dalam melaksanakan setiap hak yang diatur dalam Syarat dan Ketentuan ini, tidak akan dianggap sebagai pengesampingan atas pelanggaran substansial terhadap setiap ketentuan dalam Syarat dan Ketentuan ini. Pengesampingan tersebut juga tidak akan mempengaruhi hak Kami untuk mengambil tindakan lebih lanjut dalam menegakkan Syarat dan Ketentuan ini atau melaksanakan hak Kami di kemudian hari.",
+        },
+        {
+          number: "15.",
+          title: "Keterpisahan",
+          content:
+            "Jika ada ketentuan dalam Syarat dan Ketentuan ini yang dinyatakan atau dianggap tidak sesuai dengan hukum, tidak sah, atau tidak dapat dilaksanakan, baik secara keseluruhan maupun sebagian, berdasarkan peraturan atau prinsip hukum manapun, maka ketentuan tersebut, atau sebagian daripadanya yang tidak sesuai dengan hukum, tidak sah, atau tidak dapat dilaksanakan, akan dianggap tidak menjadi bagian dari Syarat dan Ketentuan ini. Namun demikian, legalitas, validitas, atau pelaksanaan ketentuan-ketentuan lainnya dalam Syarat dan Ketentuan ini tidak akan terpengaruh dan tetap berlaku sepenuhnya.",
+        },
+        {
+          number: "16.",
+          title: "Hukum yang mengatur",
+          content:
+            "Syarat dan Ketentuan ini diatur berdasarkan hukum Republik Indonesia. Setiap dan seluruh perselisihan yang timbul dari penggunaan layanan Kami akan tunduk pada yurisdiksi eksklusif di Pengadilan Negeri Kabupaten Gowa.",
+        },
+        {
+          number: "17.",
+          title: "Perubahan",
+          content:
+            "Syarat dan Ketentuan ini, baik sebagian maupun seluruhnya, termasuk setiap fitur atau layanan yang ditawarkan dalam akun PATONRO, dapat dimodifikasi, ditambahkan, atau diubah dari waktu ke waktu sesuai dengan kebijakan Kami, dengan atau tanpa pemberitahuan kepada Anda. Penggunaan Anda yang berkelanjutan atas PATONRO setelah adanya modifikasi, variasi, dan/atau perubahan atas Syarat dan Ketentuan ini akan dianggap sebagai persetujuan dan penerimaan Anda terhadap modifikasi, variasi, dan/atau perubahan tersebut. Jika Anda tidak menyetujui modifikasi, variasi, dan/atau perubahan tersebut, maka Anda harus berhenti mengakses atau menggunakan PATONRO dan/atau layanan Kami.",
+        },
+      ];
+
+      const tocElement = document.getElementById("toc");
+      const contentElement = document.getElementById("terms-content");
+
+      termsAndConditions.forEach((section, index) => {
+        const tocItem = document.createElement("li");
+        tocItem.innerHTML = `<a href="#section${index + 1}">${
+          section.title
+        }</a>`;
+        tocElement.appendChild(tocItem);
+
+        const sectionElement = document.createElement("section");
+        sectionElement.id = `section${index + 1}`;
+        sectionElement.classList.add("space-y-4");
+        sectionElement.innerHTML = `
+    <h2 class="text-2xl font-semibold mb-2">${section.number} ${
+          section.title
+        }</h2>
+    <p class="text-justify">${section.content || ""}</p>
+  `;
+
+        if (section.subpoints && section.subpoints.length > 0) {
+          const subpointList = document.createElement("ul");
+          subpointList.classList.add("list-inside", "ml-6", "space-y-2");
+
+          section.subpoints.forEach((subpoint, subIndex) => {
+            const subpointItem = document.createElement("li");
+            subpointItem.classList.add("text-justify");
+            const subpointNumber = `${section.number.replace(".", "")}.${
+              subIndex + 1
+            }`;
+            subpointItem.innerHTML = `<span class="font-bold">${subpointNumber}</span> <p class="inline">${subpoint.content}</p>`;
+
+            subpointList.appendChild(subpointItem);
+          });
+
+          sectionElement.appendChild(subpointList);
+        }
+
+        contentElement.appendChild(sectionElement);
+      });
+    </script>
+  </body>
+</html>
